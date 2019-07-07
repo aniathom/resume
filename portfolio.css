@@ -78,3 +78,9 @@ center{
     font-size: 20px;
     padding-left: 40px;
 }
+
+@media screen and (max-width:500px){
+   body.planet{
+           display:hidden;
+       }
+   }
