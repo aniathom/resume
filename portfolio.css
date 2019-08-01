@@ -79,8 +79,18 @@ center{
     padding-left: 40px;
 }
 
-@media screen and (max-width:500px){
-   body.planet{
-           display:hidden;
+@media only screen and (max-width:630px){
+   center{
+        display:none;
        }
+
+      .sidenav{
+        width: 14rem;
+      }
+      .top{
+          margin-left:120px;
+      }
+      .small{
+        margin-left:120px;
+      }
    }
